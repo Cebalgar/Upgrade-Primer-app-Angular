@@ -1,0 +1,26 @@
+nav{
+  justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position:static;
+    position: relative;
+
+
+  div{
+    width:200px;
+    height: auto;
+    img{
+      width: 75%;
+    }
+  }
+
+  ul{
+    list-style:none;
+    display: flex;
+    font-family: fantasy;
+    margin: 40px;
+    font-size: x-large;
+  }
+
+}

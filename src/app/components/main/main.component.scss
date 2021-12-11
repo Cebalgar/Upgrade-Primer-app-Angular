@@ -1,0 +1,54 @@
+.main-container{
+
+  padding: 10px;
+    border: 10px;
+    margin: 20px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-content: center;
+
+
+  div{
+    max-width: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    h3{
+      font-family: fantasy;
+      font-weight: bolder;
+      text-decoration: underline;
+
+    }
+
+    .main-img{
+      max-width: 100px;
+
+      img{
+        flex: 1;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
+    border: 10px;
+    margin: 20px;
+
+    }
+
+    }
+    .descripcion{
+      font-family: fantasy;
+      font-size: large;
+      justify-content: center;
+      text-align: justify;
+        }
+  }
+
+}
+h2{
+  font-family: fantasy;
+  font-size: xx-large;
+  justify-content: center;
+  text-align: center;
+
+}

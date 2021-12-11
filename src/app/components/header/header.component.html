@@ -1,0 +1,11 @@
+<nav>
+  <div>
+
+    <img src="{{headerContent.logo.img}}"  alt="{{headerContent.logo.title}}">
+  </div>
+
+    <ul *ngFor="let link of headerContent.links">
+      <li>{{link}}</li>
+    </ul>
+
+</nav>
